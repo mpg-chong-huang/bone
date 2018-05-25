@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Bone</title>
+  <meta name="description" content="bone">
+  <meta name="author" content="tom">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/png" href="favicon.png">
+  <link rel="stylesheet" href="src/bone.css">
+
+  <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+  <style>
+  body{
+    font-family: "Montserrat";
+    -webkit-font-smoothing: antialiased;
+  }
+  .logo{
+    margin-top: 5rem;
+    font-size: 3em;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: rgba(0,0,0,.8);
+    text-shadow: 0 1px 2px rgba(0,0,0,.15);
+  }
+  .row-color > [class^="col-"] {
+    color: rgba(200, 76, 3, .8);
+    background: rgba(200, 76, 3, .2);
+    border: 1px solid rgba(200, 76, 3, .8);
+    border-radius: 4px;
+    box-sizing: border-box;
+    text-align: center;}
+  .row-title h5{
+    text-transform: capitalize;
+    color: rgba(0,0,0,.8);
+    text-shadow: 0 1px 2px rgba(0,0,0,.15);
+  }
+  </style>
+</head>
+<body>
+  <header class="container">
+    <div class="row">
+      <div class="col-12">
+        <h2 class="logo center"> 🍗 Bone CSS</h2>
+      </div>
+    </div>
+  </header>
+  <div class="container">
+    <div class="row row-title">
+      <div class="col-12">
+        <hr />
+        <h5> 💠 grid layout </h5>
+      </div>
+    </div>
+    <div class="row row-color">
+      <div class="col-1">
+        <p>
+          one
+        </p>
+      </div>
+      <div class="col-11">
+        <p>
+          eleven
+        </p>
+      </div>
+    </div>
+    <div class="row row-color">
+      <div class="col-2">
+        <p>
+          two
+        </p>
+      </div>
+      <div class="col-10">
+        <p>
+          ten
+        </p>
+      </div>
+    </div>
+    <div class="row row-color">
+      <div class="col-3">
+        <p>
+          three
+        </p>
+      </div>
+      <div class="col-9">
+        <p>
+          nine
+        </p>
+      </div>
+    </div>
+    <div class="row row-color">
+      <div class="col-4">
+        <p>
+          four
+        </p>
+      </div>
+      <div class="col-8">
+        <p>
+          eight
+        </p>
+      </div>
+    </div>
+    <div class="row row-color">
+      <div class="col-5">
+        <p>
+          five
+        </p>
+      </div>
+      <div class="col-7">
+        <p>
+          seven
+        </p>
+      </div>
+    </div>
+    <div class="row row-color">
+      <div class="col-6">
+        <p>
+          six
+        </p>
+      </div>
+      <div class="col-6">
+        <p>
+          six
+        </p>
+      </div>
+    </div>
+    <div class="row row-color">
+      <div class="col-12">
+        <p>
+          twelve
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row row-title">
+      <div class="col-12 row-title">
+        <hr />
+        <h5 clas> 📝 typography </h5>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12">
+        <!-- title -->
+        <h1>Heading</h1>
+        <h2>Heading</h2>
+        <h3>Heading</h3>
+        <h4>Heading</h4>
+        <h5>Heading</h5>
+        <h6>Heading</h6>
+        <!-- text -->
+        <p>The base type is 15px over 1.6 line height (24px)</p>
+        <!-- style text -->
+        <strong>Bolded</strong>
+        <em>Italicized</em>
+        <a>Colored</a>
+        <u>Underlined</u>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12 row-title">
+        <hr />
+          <h5> ⏹️ table </h5>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12">
+        <!-- table -->
+        <table>
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th>Age</th>
+              <th>Sex</th>
+              <th>Location</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Dave Gamache</td>
+              <td>26</td>
+              <td>Male</td>
+              <td>San Francisco</td>
+            </tr>
+            <tr>
+              <td>Dwayne Johnson</td>
+              <td>42</td>
+              <td>Male</td>
+              <td>Hayward</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <div class="row row-title">
+      <div class="col-12">
+        <hr />
+          <h5> 🆗 button </h5>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12">
+        <!-- buttons -->
+        <a class="button" href="#">button</a>
+        <button>Button element</button>
+        <input type="submit" value="submit input">
+        <input type="button" value="button input">
+      </div>
+    </div>
+    <div class="row row-title">
+      <div class="col-12">
+        <hr />
+          <h5> 📰 form </h5>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12">
+        <!-- form -->
+          <form>
+            <div class="row">
+              <div class="col-12">
+                <label for="exampleEmailInput">Your email</label>
+                <input class="u-full-width" type="email" placeholder="test@mailbox.com" id="exampleEmailInput">
+              </div>
+              <div class="col-12">
+                <label for="exampleRecipientInput">Reason for contacting</label>
+                <select class="u-full-width" id="exampleRecipientInput">
+                  <option value="Option 1">Questions</option>
+                  <option value="Option 2">Admiration</option>
+                  <option value="Option 3">Can I get your number?</option>
+                </select>
+              </div>
+              <div class="col-12">
+                <label for="exampleMessage">Message</label>
+                <textarea class="u-full-width" placeholder="Hi Dave …" id="exampleMessage"></textarea>
+              </div>
+              <div class="col-12">
+                <label class="example-send-yourself-copy">
+                  <input type="checkbox">
+                  <span class="label-body">Send a copy to yourself</span>
+                </label>
+                <input class="button-primary" type="submit" value="Submit">
+              </div>
+            </div>
+          </form>
+      </div>
+    </div>
+  </div>
+  <footer class="container">
+    <div class="row">
+      <div class="col-12">
+        <p class="center">copyright ©️ tom</p>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

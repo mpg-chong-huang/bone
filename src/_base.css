@@ -1,0 +1,56 @@
+/**
+*** Bone base
+*** (C) Tom 2018
+**/
+
+html {
+  font-size: 62.5%; }
+body {
+  font-size: 1.5em; /* currently ems cause chrome bug misinterpreting rems on body element */
+  line-height: 1.5;
+  font-weight: 400;
+  font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #222; }
+
+/*  Links  */
+
+a {
+  color: #1EAEDB; }
+a:hover {
+  color: #0FA0CE; }
+
+/*  Lists  */
+
+ul {
+  list-style: circle inside; }
+ol {
+  list-style: decimal inside; }
+ol, ul {
+  padding-left: 0;
+  margin-top: 0; }
+ul ul,
+ul ol,
+ol ol,
+ol ul {
+  margin: 1.5rem 0 1.5rem 3rem;
+  font-size: 90%; }
+li {
+  margin-bottom: 1rem; }
+
+/*  Tables  */
+table{
+  width: 100%;
+  box-sizing: border-box;
+}
+th,
+td {
+  padding: 1rem;
+  text-align: left;
+  border: 1px solid #E1E1E1; }
+
+/*  Gap  */
+hr, br {
+  margin-top: 1rem;
+  margin-bottom: 1.5rem;
+  border-width: 0;
+  border-top: 1px solid #E1E1E1; }
