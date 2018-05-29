@@ -11,49 +11,48 @@
 
   <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
   <style>
-  body{
-    font-family: "Montserrat";
-    -webkit-font-smoothing: antialiased;
-  }
-  .logo{
-    margin-top: 5rem;
-    font-size: 3em;
-    margin-bottom: 10px;
-    text-transform: uppercase;
-    font-weight: bold;
-    color: rgba(0,0,0,.8);
-    text-shadow: 0 1px 2px rgba(0,0,0,.15);
-  }
-  .row-color > [class^="col-"] {
-    color: rgba(200, 76, 3, .8);
-    background: rgba(200, 76, 3, .2);
-    border: 1px solid rgba(200, 76, 3, .8);
-    border-radius: 4px;
-    box-sizing: border-box;
-    text-align: center;}
-  .row-title h5{
-    text-transform: capitalize;
-    color: rgba(0,0,0,.8);
-    text-shadow: 0 1px 2px rgba(0,0,0,.15);
-  }
+    body{
+      font-family: "Montserrat";
+      -webkit-font-smoothing: antialiased;
+      }
+    .logo{
+      margin-top: 5rem;
+      font-size: 3em;
+      margin-bottom: 10px;
+      text-transform: uppercase;
+      font-weight: bold;
+      color: rgba(0,0,0,.8);
+      text-shadow: 0 1px 2px rgba(0,0,0,.15);
+    }
+    .row-color > [class^="col-"] {
+      color: rgba(200, 76, 3, .8);
+      background: rgba(200, 76, 3, .2);
+      border: 1px solid rgba(200, 76, 3, .8);
+      border-radius: 4px;
+      text-align: center;}
+    .row-title h5{
+      text-transform: capitalize;
+      color: rgba(0,0,0,.8);
+      text-shadow: 0 1px 2px rgba(0,0,0,.15);
+    }
   </style>
 </head>
 <body>
   <header class="container">
-    <div class="row">
+    <div class="row grid">
       <div class="col-12">
         <h2 class="logo center"> 🍗 Bone CSS</h2>
       </div>
     </div>
   </header>
   <div class="container">
-    <div class="row row-title">
+    <div class="row grid row-title">
       <div class="col-12">
         <hr />
         <h5> 💠 grid layout </h5>
       </div>
     </div>
-    <div class="row row-color">
+    <div class="row grid row-color">
       <div class="col-1">
         <p>
           one
@@ -65,7 +64,7 @@
         </p>
       </div>
     </div>
-    <div class="row row-color">
+    <div class="row grid row-color">
       <div class="col-2">
         <p>
           two
@@ -77,7 +76,7 @@
         </p>
       </div>
     </div>
-    <div class="row row-color">
+    <div class="row grid row-color">
       <div class="col-3">
         <p>
           three
@@ -89,7 +88,7 @@
         </p>
       </div>
     </div>
-    <div class="row row-color">
+    <div class="row grid row-color">
       <div class="col-4">
         <p>
           four
@@ -101,7 +100,7 @@
         </p>
       </div>
     </div>
-    <div class="row row-color">
+    <div class="row grid row-color">
       <div class="col-5">
         <p>
           five
@@ -113,7 +112,7 @@
         </p>
       </div>
     </div>
-    <div class="row row-color">
+    <div class="row grid row-color">
       <div class="col-6">
         <p>
           six
@@ -125,7 +124,7 @@
         </p>
       </div>
     </div>
-    <div class="row row-color">
+    <div class="row grid row-color">
       <div class="col-12">
         <p>
           twelve
@@ -134,13 +133,13 @@
     </div>
   </div>
   <div class="container">
-    <div class="row row-title">
+    <div class="row grid row-title">
       <div class="col-12 row-title">
         <hr />
         <h5 clas> 📝 typography </h5>
       </div>
     </div>
-    <div class="row">
+    <div class="row grid">
       <div class="col-12">
         <!-- title -->
         <h1>Heading</h1>
@@ -158,13 +157,13 @@
         <u>Underlined</u>
       </div>
     </div>
-    <div class="row">
+    <div class="row grid">
       <div class="col-12 row-title">
         <hr />
           <h5> ⏹️ table </h5>
       </div>
     </div>
-    <div class="row">
+    <div class="row grid">
       <div class="col-12">
         <!-- table -->
         <table>
@@ -193,13 +192,13 @@
         </table>
       </div>
     </div>
-    <div class="row row-title">
+    <div class="row grid row-title">
       <div class="col-12">
         <hr />
           <h5> 🆗 button </h5>
       </div>
     </div>
-    <div class="row">
+    <div class="row grid">
       <div class="col-12">
         <!-- buttons -->
         <a class="button" href="#">button</a>
@@ -208,17 +207,17 @@
         <input type="button" value="button input">
       </div>
     </div>
-    <div class="row row-title">
+    <div class="row grid row-title">
       <div class="col-12">
         <hr />
           <h5> 📰 form </h5>
       </div>
     </div>
-    <div class="row">
+    <div class="row grid">
       <div class="col-12">
         <!-- form -->
           <form>
-            <div class="row">
+            <div class="row grid">
               <div class="col-12">
                 <label for="exampleEmailInput">Your email</label>
                 <input class="u-full-width" type="email" placeholder="test@mailbox.com" id="exampleEmailInput">
@@ -248,7 +247,7 @@
     </div>
   </div>
   <footer class="container">
-    <div class="row">
+    <div class="row grid">
       <div class="col-12">
         <p class="center">copyright ©️ tom</p>
       </div>

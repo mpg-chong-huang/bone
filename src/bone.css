@@ -5,7 +5,7 @@
 
 @import '_normalize.css';
 @import '_base.css';
-@import '_skeleton-float.css';
+@import '_skeleton-grid.css';
 @import '_typography.css';
 @import '_form.css';
 @import '_button.css';
