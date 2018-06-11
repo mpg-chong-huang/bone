@@ -16,11 +16,11 @@
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   grid-template-rows: auto;
-  grid-column-gap: 2%;
-  grid-row-gap: 0.5rem;
+  grid-column-gap: 4%;
+  grid-row-gap: 1rem;
 }
 .row [class^="col"] {
-  margin: 0 0.5rem;
+  margin: 0 1rem;
 }
 
 .col-1,

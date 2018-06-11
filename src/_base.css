@@ -3,21 +3,28 @@
 *** (C) Tom 2018
 **/
 
+@font-face {
+  font-family: 'Pixel';
+  src: url('font/m5x7.ttf') format('truetype');
+}
+
+
 html {
-  font-size: 62.5%; }
+  font-size: 76%; }
 body {
   font-size: 1.5em; /* currently ems cause chrome bug misinterpreting rems on body element */
   line-height: 1.5;
   font-weight: 400;
-  font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color: #222; }
+  font-family: 'Pixel', 'Raleway', 'HelveticaNeue', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased; }
 
 /*  Links  */
 
 a {
-  color: #1EAEDB; }
+  color: rgba(33, 255, 208, .8); }
 a:hover {
-  color: #0FA0CE; }
+  color: rgba(33, 255, 208, 1);
+  text-decoration: underline;}
 
 /*  Lists  */
 

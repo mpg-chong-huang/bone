@@ -5,7 +5,10 @@
 
 @import '_normalize.css';
 @import '_base.css';
-@import '_skeleton-grid.css';
+/* icon set */
+@import '_icon.css';
+/* float layout */
+@import '_skeleton-float.css'; /*_skeleton-grid.css*/
 @import '_typography.css';
 @import '_form.css';
 @import '_button.css';
