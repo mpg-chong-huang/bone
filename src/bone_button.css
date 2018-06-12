@@ -10,7 +10,6 @@ input[type="button"] {
   display: inline-block;
   height: 38px;
   padding: 0 30px;
-  color: rgba(85, 85, 85, 0.8);
   text-align: center;
   font-size: 11px;
   font-weight: 600;
@@ -21,7 +20,8 @@ input[type="button"] {
   white-space: nowrap;
   background-color: transparent;
   border-radius: 4px;
-  border: 1px solid rgba(85, 85, 85, 0.4);
+  color: rgba(255,255,255,.8);
+  border: 1px solid rgba(255,255,255,1);
   cursor: pointer;
   box-sizing: border-box;
   margin-bottom: 1rem;}
@@ -33,6 +33,139 @@ input[type="button"]:hover,
 button:focus,
 input[type="submit"]:focus,
 input[type="button"]:focus {
-  color: rgba(85, 85, 85, 1);
-  border-color: rgba(85, 85, 85, 1);
+  color: rgba(255,255,255,1);
+  border: 1px solid rgba(255,255,255,1);
   outline: 0; }
+
+
+.button-default{
+  color: rgba(0,0,0,.5);
+  border: 1px solid rgba(255,255,255,1);
+  background-color: rgba(255,255,255,1);
+  box-shadow:   0 1px 0 hsl(174,5%,80%),
+                 0 2px 0 hsl(174,5%,75%),
+                 0 3px 0 hsl(174,5%,70%),
+                 0 4px 0 hsl(174,5%,66%),
+                 0 5px 0 hsl(174,5%,64%),
+                 0 6px 0 hsl(174,5%,62%),
+                 0 7px 0 hsl(174,5%,61%),
+                 0 8px 0 hsl(174,5%,60%),
+
+                 0 0 5px rgba(0,0,0,.05),
+                0 1px 3px rgba(0,0,0,.1),
+                0 3px 5px rgba(0,0,0,.1),
+                0 5px 5px rgba(0,0,0,.2);}
+.button-default:hover,
+.button-default:focus {
+  color: rgba(0,0,0,1);
+  border: 1px solid rgba(255,255,255,1);
+  transform: translateY(4px);
+  outline: 0;
+  box-shadow:   0 1px 0 hsl(174,5%,80%),
+                 0 2px 0 hsl(174,5%,75%),
+                 0 3px 0 hsl(174,5%,70%),
+                 0 4px 0 hsl(174,5%,66%),
+
+                 0 0 5px rgba(0,0,0,.05),
+                0 1px 3px rgba(0,0,0,.1),
+                0 3px 5px rgba(0,0,0,.1),
+                0 5px 5px rgba(0,0,0,.2);}
+
+.button-success{
+  color: rgba(0,0,0,.5);
+  border: 1px solid rgba(33,255,208,.6);
+  background-color: rgba(33,255,208,1);
+  box-shadow:   0 1px 0 hsl(167,100%,20%),
+                 0 2px 0 hsl(167,100%,24%),
+                 0 3px 0 hsl(167,100%,22%),
+                 0 4px 0 hsl(167,100%,20%),
+                 0 5px 0 hsl(167,100%,18%),
+                 0 6px 0 hsl(167,100%,16%),
+                 0 7px 0 hsl(167,100%,14%),
+                 0 8px 0 hsl(167,100%,12%),
+
+                 0 0 5px rgba(0,0,0,.05),
+                0 1px 3px rgba(0,0,0,.1),
+                0 3px 5px rgba(0,0,0,.1),
+                0 5px 5px rgba(0,0,0,.2);}
+.button-success:hover,
+.button-success:focus {
+  color: rgba(0,0,0,1);
+  border: 1px solid rgba(33,255,208,.6);
+  transform: translateY(4px);
+  outline: 0;
+  box-shadow:   0 1px 0 hsl(167,100%,18%),
+                 0 2px 0 hsl(167,100%,16%),
+                 0 3px 0 hsl(167,100%,14%),
+                 0 4px 0 hsl(167,100%,12%),
+
+                 0 0 5px rgba(0,0,0,.05),
+                0 1px 3px rgba(0,0,0,.1),
+                0 3px 5px rgba(0,0,0,.1),
+                0 5px 5px rgba(0,0,0,.2);}
+
+.button-warning{
+  color: rgba(0,0,0,.5);
+  border: 1px solid rgba(255,235,59,.6);
+  background-color: rgba(255,235,59,1);
+  box-shadow:   0 1px 0 hsl(54,100%,26%),
+                 0 2px 0 hsl(54,100%,24%),
+                 0 3px 0 hsl(54,100%,22%),
+                 0 4px 0 hsl(54,100%,20%),
+                 0 5px 0 hsl(54,100%,18%),
+                 0 6px 0 hsl(54,100%,16%),
+                 0 7px 0 hsl(54,100%,14%),
+                 0 8px 0 hsl(54,100%,12%),
+
+                 0 0 5px rgba(0,0,0,.05),
+                0 1px 3px rgba(0,0,0,.1),
+                0 3px 5px rgba(0,0,0,.1),
+                0 5px 5px rgba(0,0,0,.2);}
+.button-warning:hover,
+.button-warning:focus {
+  color: rgba(0,0,0,1);
+  border: 1px solid rgba(255,235,59,.6);
+  transform: translateY(4px);
+  outline: 0;
+  box-shadow:   0 1px 0 hsl(54,100%,18%),
+                 0 2px 0 hsl(54,100%,16%),
+                 0 3px 0 hsl(54,100%,14%),
+                 0 4px 0 hsl(54,100%,12%),
+
+                 0 0 5px rgba(0,0,0,.05),
+                0 1px 3px rgba(0,0,0,.1),
+                0 3px 5px rgba(0,0,0,.1),
+                0 5px 5px rgba(0,0,0,.2);}
+
+.button-error{
+  color: rgba(0,0,0,.5);
+  border: 1px solid rgba(244,67,54,.6);
+  background-color: rgba(244,67,54,1);
+  box-shadow:   0 1px 0 hsl(4,100%,26%),
+                 0 2px 0 hsl(4,100%,24%),
+                 0 3px 0 hsl(4,100%,22%),
+                 0 4px 0 hsl(4,100%,20%),
+                 0 5px 0 hsl(4,100%,18%),
+                 0 6px 0 hsl(4,100%,16%),
+                 0 7px 0 hsl(4,100%,14%),
+                 0 8px 0 hsl(4,100%,12%),
+
+                 0 0 5px rgba(0,0,0,.05),
+                0 1px 3px rgba(0,0,0,.1),
+                0 3px 5px rgba(0,0,0,.1),
+                0 5px 5px rgba(0,0,0,.2);}
+.button-error:hover,
+.button-error:focus {
+  color: rgba(0,0,0,1);
+  border: 1px solid rgba(244,67,54,.6);
+  transform: translateY(4px);
+  outline: 0;
+  box-shadow:   0 1px 0 hsl(4,100%,18%),
+                 0 2px 0 hsl(4,100%,16%),
+                 0 3px 0 hsl(4,100%,14%),
+                 0 4px 0 hsl(4,100%,12%),
+
+                 0 0 5px rgba(0,0,0,.05),
+                0 1px 3px rgba(0,0,0,.1),
+                0 3px 5px rgba(0,0,0,.1),
+                0 5px 5px rgba(0,0,0,.2);}
