@@ -4,17 +4,25 @@
 **/
 
 @font-face {
-  font-family: 'pixel-5x7';
-  src: url('font/m5x7.ttf') format('truetype');
+  font-family: 'e8x12';
+  src: url('font/e8x12.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'k8x12';
+  src: url('font/k8x12.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'z8x12';
+  src: url('font/z8x12.ttf') format('truetype');
 }
 
 html {
-  font-size: 76%; }
+  font-size: 62.4%; }
 body {
   font-size: 1.5em; /* currently ems cause chrome bug misinterpreting rems on body element */
   line-height: 1.5;
   font-weight: 400;
-  font-family: 'pixel-5x7', 'Raleway', 'HelveticaNeue', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'e8x12', 'z8x12', 'k8x12', 'Raleway', 'HelveticaNeue', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased; }
 
 /*  Links  */
