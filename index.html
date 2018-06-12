@@ -10,18 +10,40 @@
   <link rel="stylesheet" href="src/bone.css">
 
   <style>
+    @font-face {
+      font-family: 'pixel-4x3';
+      src: url('src/font/m4x3.ttf') format('truetype');
+    }
     body{
       background: rgba(23, 27, 33, 1);
       color: rgba(255,255,255,1);
     }
     .logo{
+      font-family: 'pixel-4x3';
+      display: block;
       margin-top: 5rem;
-      font-size: 4em;
+      font-size: 2em;
       margin-bottom: 10px;
+      line-height: 60px;
+      height: 60px;
       text-transform: uppercase;
-      font-weight: bold;
-      color: rgba(33, 255, 208, 1);
+      color: rgba(33,255,208,1);
       letter-spacing: .2em;
+      text-shadow: 0 1px 0 hsl(167,100%,12%),
+	                 0 2px 0 hsl(167,100%,10%),
+	                 0 3px 0 hsl(167,100%,8%),
+	                 0 4px 0 hsl(167,100%,6%),
+	                 0 5px 0 hsl(167,100%,4%),
+	                 0 6px 0 hsl(167,100%,3%),
+	                 0 7px 0 hsl(167,100%,2%),
+	                 0 8px 0 hsl(167,100%,1%),
+
+	                 0 0 5px rgba(0,0,0,.05),
+	                0 1px 3px rgba(0,0,0,.2),
+	                0 3px 5px rgba(0,0,0,.2),
+	               0 5px 10px rgba(0,0,0,.2),
+	              0 10px 10px rgba(0,0,0,.2),
+	              0 20px 20px rgba(0,0,0,.3);
     }
     .row-color > [class^="col-"] {
       color: rgba(33, 255, 208, 1);
@@ -30,15 +52,16 @@
       border-radius: 4px;
       text-align: center;}
     .row-title h5{
-    color: rgba(33, 255, 208, 1);
-  }
+      text-transform: uppercase;
+      color: rgba(33, 255, 208, 1);
+    }
   </style>
 </head>
 <body>
   <header class="container">
     <div class="row grid">
       <div class="col-12">
-        <h2 class="logo center"> Bone CSS</h2>
+        <h2 class="logo center">Bone CSS</h2>
       </div>
     </div>
   </header>
@@ -198,10 +221,10 @@
     <div class="row grid">
       <div class="col-12">
         <!-- buttons -->
-        <a class="button" href="#">button</a>
-        <button>Button element</button>
-        <input type="submit" value="submit input">
-        <input type="button" value="button input">
+        <a class="button button-default" href="#">button</a>
+        <button class="button-default">Button element</button>
+        <input class="button-default" type="submit" value="submit input">
+        <input class="button-default" type="button" value="button input">
       </div>
     </div>
     <div class="row grid row-title">

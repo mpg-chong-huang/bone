@@ -4,10 +4,9 @@
 **/
 
 @font-face {
-  font-family: 'Pixel';
+  font-family: 'pixel-5x7';
   src: url('font/m5x7.ttf') format('truetype');
 }
-
 
 html {
   font-size: 76%; }
@@ -15,7 +14,7 @@ body {
   font-size: 1.5em; /* currently ems cause chrome bug misinterpreting rems on body element */
   line-height: 1.5;
   font-weight: 400;
-  font-family: 'Pixel', 'Raleway', 'HelveticaNeue', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'pixel-5x7', 'Raleway', 'HelveticaNeue', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased; }
 
 /*  Links  */
@@ -23,8 +22,7 @@ body {
 a {
   color: rgba(33, 255, 208, .8); }
 a:hover {
-  color: rgba(33, 255, 208, 1);
-  text-decoration: underline;}
+  color: rgba(33, 255, 208, 1);}
 
 /*  Lists  */
 
