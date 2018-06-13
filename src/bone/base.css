@@ -2,18 +2,13 @@
 *** Bone index
 *** (C) Tom 2018
 **/
-
-@font-face {
-  font-family: 'e8x12';
-  src: url('font/e8x12.ttf') format('truetype');
-}
 @font-face {
   font-family: 'k8x12';
-  src: url('font/k8x12.ttf') format('truetype');
+  src: url('../font/k8x12.ttf') format('truetype');
 }
 @font-face {
   font-family: 'z8x12';
-  src: url('font/z8x12.ttf') format('truetype');
+  src: url('../font/z8x12.ttf') format('truetype');
 }
 
 html {

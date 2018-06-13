@@ -20,8 +20,9 @@ input[type="button"] {
   white-space: nowrap;
   background-color: transparent;
   border-radius: 4px;
-  color: rgba(255,255,255,.8);
+  color: rgba(0,0,0,.8);
   border: 1px solid rgba(255,255,255,1);
+  background: rgba(255,255,255,1);
   cursor: pointer;
   box-sizing: border-box;
   margin-bottom: 1rem;}
@@ -33,7 +34,7 @@ input[type="button"]:hover,
 button:focus,
 input[type="submit"]:focus,
 input[type="button"]:focus {
-  color: rgba(255,255,255,1);
+  color: rgba(0,0,0,1);
   border: 1px solid rgba(255,255,255,1);
   outline: 0; }
 
