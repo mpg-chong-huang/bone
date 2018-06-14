@@ -2,23 +2,6 @@
 *** Bone index
 *** (C) Tom 2018
 **/
-@font-face {
-  font-family: 'k8x12';
-  src: url('../font/k8x12.ttf') format('truetype');
-}
-@font-face {
-  font-family: 'z8x12';
-  src: url('../font/z8x12.ttf') format('truetype');
-}
-
-html {
-  font-size: 60%; }
-body {
-  font-size: 1.5em; /* currently ems cause chrome bug misinterpreting rems on body element */
-  line-height: 1.5;
-  font-weight: 400;
-  font-family: 'e8x12', 'z8x12', 'k8x12', 'Raleway', 'HelveticaNeue', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased; }
 
 /*  Links  */
 

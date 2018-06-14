@@ -1,2 +1,2 @@
-require('./bone/index.css');
+import './bone';
 require('./style.css');
