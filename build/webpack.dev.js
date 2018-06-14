@@ -12,7 +12,7 @@ const devWebpackConfig = merge(baseWebpackConfig, {
   devServer: {
     clientLogLevel: 'warning',
     hot: true,
-    contentBase: path.join(__dirname, "../"),
+    contentBase: path.join(__dirname, '../src/'),
     compress: true,
     host: 'localhost',
     port: 8081,
@@ -23,7 +23,7 @@ const devWebpackConfig = merge(baseWebpackConfig, {
     new webpack.NoEmitOnErrorsPlugin(),
     // https://github.com/ampedandwired/html-webpack-plugin
     new HtmlWebpackPlugin({
-      template: 'index.html',
+      template: 'src/index.html',
       inject: true
     }),
   ]

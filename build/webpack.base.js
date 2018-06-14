@@ -5,12 +5,10 @@ const webpack = require('webpack')
 module.exports = {
   context: path.resolve(__dirname, '../'),
   devtool: 'source-map',
-  entry: {
-    app: './src/index.js',
-  },
+  entry: './src/index.js',
   output: {
     path: path.resolve(__dirname, '../dist'),
-    filename: '[name].js',
+    filename: 'app.js',
   },
   module: {
     rules: [
@@ -37,6 +35,9 @@ module.exports = {
       {
         test: /\.(woff2?|eot|ttf|otf|woff)(\?.*)?$/,
         loader: 'file-loader',
+        options: {
+          name: '[path][name].[ext]',
+        },
       },
     ],
   },
